@@ -13,7 +13,7 @@ body{
     justify-content: space-between;
 }
 .logo{
-    width: 100px;
+    width: 150px;
     height: 40px;
     margin-top: 5px;
     background: #ffffff;
@@ -43,6 +43,12 @@ body{
     display: flex;
 }
 
+hr{
+    width: 10%;
+    background-color: #7050EF;
+    height: 5px;
+    border-radius: 5px;
+}
 .intro-text{
     width: 50%;
     margin-top: 200px;
@@ -53,9 +59,12 @@ body{
  margin-bottom: 5px;
  font-size: 40px;
  font-weight: 800;
+ margin-top: 20px;
+
 }
 .intro-text h4{
     font-size: 20px;
+    
 }
 .color-text{
     color: #7050EF;
@@ -71,6 +80,7 @@ body{
     font-size: 20px;
     color: #f0f0f1;
     font-weight: 800;
+    border-radius: 7px;
 }
 .img{
      width: 50%;
@@ -78,4 +88,41 @@ body{
 
 .img img{
     width: 80%;
+}
+
+.experinecs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.experinecs-text{
+    margin-left: 40px;
+}
+.experinecs-text h1{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.experinecs-1{
+    text-align: center;
+    margin-top: 20px;
+}
+.experinecs-1 h2{
+    margin-top: 10px;
+}
+.experinecs-1 p{
+    margin-bottom: 15px;
+}
+
+.experinecs-1 img{
+    width: 100%;
+    background-color: #e6e6eb;
+    box-shadow: 0 2px 5px 0;
+}
+.experinecs-1 a{
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #7050EF;
+    padding: 5px 10px; 
+    color: #ffffff;
+    border-radius: 5px;
 }
