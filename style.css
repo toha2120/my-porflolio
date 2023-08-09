@@ -368,6 +368,7 @@ hr{
     }
     .nav-links li{
         display: block;
+        width: 100%;
     }
     .nav-links li a{
         background-color: #161616;
@@ -437,6 +438,15 @@ hr{
         margin-left: 0;
         
     }
+    /* .designs{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 10px solid rgb(7, 2, 12);
+    }
+    .images{
+        max-width: 80%;
+        height: 500px;
+    } */
     .abouts{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -459,7 +469,7 @@ hr{
     }
     .about-text p{
         margin-top: 20px;
-        line-height: 9.5vh;
+        line-height: 5.5vh;
     }
     .icon{
         display: flex;
