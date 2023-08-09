@@ -511,7 +511,7 @@ hr{
     }
     .about-text p{
         margin-top: 20px;
-        line-height: 5.5vh;
+        line-height: 7.5vh;
     }
     .icon{
         display: flex;
@@ -523,7 +523,7 @@ hr{
         margin-top: 5px;
     }
     hr{
-        margin-top: 0px;
+        margin-top: 10px;
     }
     
     .contacts{
