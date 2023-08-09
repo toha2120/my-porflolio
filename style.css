@@ -156,12 +156,43 @@ body{
     margin-top: 5px;
 }
 
+
 #parsentace-line{
     width: 85%;
     background-color: #7050EF;
     height: 5px;
     border-radius: 5px;
     
+}
+.portfolio{
+    text-align: center;
+    margin-top: 30px;
+}
+.portfolio p{
+    font-size: 15px;
+}
+.portfolio h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: white; 
+    background-color: #7050EF;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.designs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap: 15px;
+}
+.designs img{
+    max-width: 90%;
+    box-shadow: 0 4px 6px 0;
+
 }
 
 .four-section{
@@ -373,10 +404,9 @@ hr{
         background-color: #161616;
     }
     .logo{
-        width: 50px;
-        height: 20px;
-        margin-top: 15px;
-        background: #ffffff;
+        width: 200px;
+        height: 50px;
+        margin-top: 0px;
         margin-right: 10px;
     }
     .first-section{
@@ -437,15 +467,28 @@ hr{
         margin-left: 0;
         
     }
-    /* .designs{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        border: 10px solid rgb(7, 2, 12);
+    .portfolio h1{
+        font-size: 50px;
+        font-weight: 800;
+        color: white; 
+        background-color: #7050EF;
+        width: 35%;
+        margin-left: 32%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-radius: 50px;
     }
-    .images{
-        max-width: 80%;
-        height: 500px;
-    } */
+    .designs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        place-items: center;
+        gap: 15px;
+    }
+    .designs img{
+        max-width: 90%;
+        box-shadow: 0 4px 6px 0;
+    
+    }
     .abouts{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
